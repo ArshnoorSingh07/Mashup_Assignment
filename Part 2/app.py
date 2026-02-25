@@ -114,7 +114,7 @@ email = st.text_input("Receiver email")
 if st.button("Create Mashup"):
     if singer and email:
         try:
-            with st.spinner("Processing... this can take 2-5 minutes"):
+            with st.spinner("Processing..."):
                 zip_file = create_mashup(singer, num_videos, duration)
                 send_email(zip_file, email)
 
