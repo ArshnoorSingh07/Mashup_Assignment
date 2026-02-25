@@ -6,8 +6,8 @@ from email.message import EmailMessage
 from pytubefix import YouTube, Search
 from moviepy import AudioFileClip, concatenate_audioclips
 
-SENDER_EMAIL = "arshnoorsingh.05@gmail.com"
-APP_PASSWORD = "dlhhovirseqiakxn"
+SENDER_EMAIL = st.secrets["SENDER_EMAIL"]
+APP_PASSWORD = st.secrets["APP_PASSWORD"]
 
 
 def create_mashup(singer_name, num_videos, duration):
