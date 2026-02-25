@@ -94,7 +94,7 @@ Mashup_Assignment/
 ## Screenshots
 
 ### Web Application Interface
-![Interface](Screenshots/interface.png)
+![Interface](Screenshots/Interface.png)
 
 ### Mashup Generation Process
 ![processing](Screenshots/processing.png)
